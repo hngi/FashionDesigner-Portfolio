@@ -274,7 +274,7 @@ a{
 
 /*---------Contact-------------*/
 .contact-bg{
-    background-image: url("images/Mapsicle\ Map.png");
+    background-image: url("/images/Mapsicle\ Map.png");
     min-height: 600px;
     background-position: center;
     background-repeat: no-repeat;
