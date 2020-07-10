@@ -126,6 +126,7 @@ a{
     line-height: 35px;
     color: #3F3E3E;
   }
+ 
   @media only screen and (min-width: 768px) {
    .about-title{
        font-size: 30px;
@@ -136,12 +137,83 @@ a{
   }
 
 /*---------Contact-------------*/
-
-  #contact{
-      background-image: url("images/Mapsicle\ Map.png");
-      background-repeat: no-repeat;
-      overflow: hidden;
-      height: 540px;
+.contact-bg{
+    background-image: url("images/Mapsicle\ Map.png");
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.form-container {
+    position: absolute;
+    right: 0;
+    margin: 30px;
+    max-width: 480px;
+    padding: 56px;
+    background-color: white;
   }
-
+  input[type=text], textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+  }
   
+  input[type=text]:focus, textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .submitbtn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 20px;
+    color: white !important;
+    padding: 8px 20px !important;
+    background-color: #3036CC!important;
+    outline: none !important;
+    border: 0;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  .submitbtn:hover{
+      font-size: 16px;
+  }
+ /*-----------FOOTER----*/
+ .hr-footer{
+    width: 85%; 
+ }
+ .footer-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #3F3E3E;
+ }
+.copyright >p , .connectsul , .contacts >p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3F3E3E;
+}
+  @media (max-width: 568px) {
+      .hr-footer{
+        width:70%;
+      }
+    #footer{
+        text-align: center;
+    }
+    .footer-title{
+        font-size: 22px;
+    }
+    .copyright >p , .connectsul , .contacts >p{
+        font-size:18px;
+    }  
+}
+

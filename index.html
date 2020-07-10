@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/0268f71e2c.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat?query=Mont&selection.family=Open+Sans:wght@300;400;600;700;800">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Salsa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Wedding Planner</title>
   </head>
@@ -47,7 +48,7 @@
 <section  id="home" class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 text-justify ">
+        <div class="col-md-6 text-justify mb-4 ">
             <br><br>
             <p class="intro-title">Hello I'm <br><span class="name">Flinekdre Mike</span><br><span id="wedplan" style=" font-weight: normal; color: #3036CC; ">Wedding Planner</span></p>
             <br><br>
@@ -74,7 +75,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-            <img class="img img-fluid" src="images/abouut1.png" alt="" />
+            <img class="img img-fluid " src="images/abouut1.png" alt="" />
           </div>
         <div class="col-md-6 text-justify ">
             <br><br><br> <br>
@@ -88,44 +89,41 @@
       </div>
     </div>
   </section>
-<section id="contact">
-    <div class="row">
-        <div class="col-md-6"></div>
-        
-   <form class="contactform">
-    <h2 class="pb-2 font-weight-bold about-title text-center">Contact Me</h2>
-    <div class="form-group pb-1">
-        <input
-          type="text"
-          class="form-control p-0 pl-2"
-          placeholder="Name" required="required"
-        />
-      </div>
-        <div class="form-group pb-1">
-        <input
-          type="email"
-          class="form-control p-0 pl-2"
-          aria-describedby="emailHelp"
-          placeholder="Email" required="required"
-        />
-      </div>
-      <div class="form-group pb-1">
-        <textarea
-          class="form-control messagebox p-0 pl-3 pt-2"
-          rows="6"
-          placeholder="Message"
-          style="resize: none !important;" required="required"
-        ></textarea>
-      </div>
-      <button
-        type="submit"
-        class="text-center btn btn-primary btn-contact">
-        Submit
-      </button>
-    </form>
-</div>
+  <!----------------------Contact------------------------------->
+<section id="contact" class="py-5 mb-2">
+   <div class="contact-bg">
+  <form class="form-container">
+    <h2 class="pb-2 text-center font-weight-bold contact-title" style="color: #3036CC;">Contact Me</h2>
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email" name="email" required>
+    <textarea rows="5" id="comment"	placeholder="Message" name="message"></textarea>
+    <button type="submit" class="submitbtn">Submit</button>
+  </form>
 </div>
 </section>
+
+<hr class="hr-footer" style="text-align:left;margin-left:68px;margin-right: 68px;">
+
+<!----------------------FOOTER------------->
+<section  id="footer" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 copyright">
+        <h3 class="footer-title">Flinekdre Mike </h3>
+        <p>©2020, All rights Reserved</p>
+      </div>
+      <div class="col-md-5 contacts">
+        <h3 class="footer-title">Contact </h3>
+        <p>flinek@weddingplan.com</p>
+      </div>
+      <div class="col-md-2 connects">
+        <h3 class="footer-title">Connect </h3>
+        <p><ul><li class="connectsul">Linkedin</li> <br> <li class="connectsul">Twitter</li> <br>
+        <li class="connectsul">Instagram</li> <br> <li class="connectsul">Facebook</li></ul></p>
+      </div>
+      </div>
+      </div>
+      </section>
 
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
