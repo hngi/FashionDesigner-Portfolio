@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*---------NAVIGATION-------------*/
+.navbar-nav{
+    font-style: normal;
+    font-weight: 900;
+}
+.navi ul{
+    margin-right: 20px;
+}
+.navi ul a{
+    color: #3036CC !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.045em;
+}
+.navi ul a:hover{
+    color:#3036CC !important;
+    font-size: 14px;
+}
+.navbar-nav .active{
+    color: #3036CC !important;
+    font-weight: 800;
+}
+
+/*---------hero-------------*/
+.intro-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.045em;
+    color: #3036CC;
+}
+.intro-title{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 33px;
+    color: #3036CC;
+}
+.name{
+    font-weight: 800;
+    font-size: 26px; 
+}
+#wedplan{
+    font-size: 18px;
+}
+.seeresume{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 20px;
+    color: #3036CC;
+    cursor: pointer;
+    margin-right: 20px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+li {
+    display: inline-block;
+    vertical-align:  left;
+}
+a{
+    display: block;
+    font-size: 1.4em;
+    margin: 0px 25px 0px 0px;
+    text-decoration: none;
+}
+.hirebtn{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 20px;
+    color: white !important;
+    padding: 8px 20px !important;
+    background-color: #3036CC!important;
+    outline: none !important;
+    border: 0;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.hirebtn:hover{
+    font-size: 16px;
+}
+@media only screen and (min-width: 768px) {
+    .intro-title{
+        font-size: 24px;
+    }
+    .intro-text{
+        font-size: 18px;
+    }
+    .name{
+        font-size: 32px;
+    }
+    #wedplan{
+        font-size: 22px;
+    }
+   }
+/*---------about-------------*/
+.about-title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 41px;
+    color: #3036CC;
+}
+.about-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    color: #3F3E3E;
+  }
+  @media only screen and (min-width: 768px) {
+   .about-title{
+       font-size: 30px;
+   }
+    .about-text {
+       font-size: 20px;
+    }
+  }
+
+/*---------Contact-------------*/
+
+  #contact{
+      background-image: url("images/Mapsicle\ Map.png");
+      background-repeat: no-repeat;
+      overflow: hidden;
+      height: 540px;
+  }
+
+  
