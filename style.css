@@ -158,6 +158,20 @@ a{
 .gallery__card{
     padding: 0px !important;
     box-shadow: -3px 4px 12px rgba(129, 127, 127, 0.15);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.gallery__card:hover{
+    box-shadow: 2px 2px 10px #C1A87D;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 .card-img-top{
@@ -240,6 +254,14 @@ a{
 
 .card-text{
     color: #3036CC;
+}
+
+.text-black{
+    color: black;
+}
+
+.carousel-inner{
+    margin-top: 30px;
 }
 /*---------testimonials--------*/
 
