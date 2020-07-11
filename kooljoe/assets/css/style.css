@@ -1,0 +1,816 @@
+body{
+    font-family: roboto;
+    background-color: #FFFFFF;
+}
+
+/* header */
+header div.container{
+    padding: 0;
+    height: 50px;
+}
+
+header div.container p{
+    font-size: 10px;
+    line-height: 19px;
+    color: #FAFAFA;
+    opacity: 0.85;
+    padding: 5px;
+}
+
+header div.container span a img{
+    padding: 5px;
+}
+
+header div.container hr{
+    background: #FFFFFF;
+    opacity: 0.2;
+    padding: 0;
+}
+#top-section{
+    height: 600px;
+    background-color: #000000;;
+    background-image: url("../images/image 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+
+#top-section > div > nav > a > span:nth-child(1){
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 2px solid #FFFFFF;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
+#top-section > div > nav > a > span:nth-child(3){
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+#navbarNav > ul > li.nav-item.active > a{
+    border-bottom: 2px solid #CF9455;
+    color: #CF9455;
+}
+.navbar-nav{
+    margin-left: 150px;
+}
+
+.navbar-nav li{
+    padding: 8px;
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #CF9455;
+}
+
+#navbarNav > ul > li:nth-child(8) > span:nth-child(4){
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+#navbarNav h6{
+    display: inline-block;
+    font-size: 15px;
+}
+
+#top-section div.upper-card{
+    width: 100%;
+    margin-top: 200px;
+    padding-left: 150px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#top-section div.upper-card h6{
+    font-size: 10px;
+    line-height: 10px;
+}
+
+#top-section div.upper-card  h2{
+    font-size: 45px;
+    line-height: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+#top-section div.upper-card  h6 span img{
+    padding-right: 10px;
+}
+
+#top-section div.upper-card  p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.85;
+    font-family: 'Playfair Display', serif;
+}
+
+#top-section div.upper-card button{
+    background-color:  #CF9455;
+    border-radius: 0;
+}
+
+.card{
+    border: 0;
+}
+
+button{
+    border-radius: 0;
+}
+
+/* aBout */
+#about{
+    height: 400px;
+}
+
+#about div.card1{
+    background-color: #cf945594;
+    margin-top: 60px;
+    height: 650px;
+    background-image: url(../images/image\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#about div.card2{
+    margin-top: 50px;
+}
+
+#about div.card2 h2{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #212121;
+    margin-top: 80px;
+}
+
+#about div.card2  h6{
+    font-size: 11px;
+    line-height: 19px;
+    color: #424242;
+}
+
+#about div.card2  p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#about div.card2 button{
+    border-radius: 0;
+    color: #CF9455;
+    border: 2px solid #CF9455;
+}
+
+#about div.card2 button span{
+    font-size: 12px;
+}
+
+#about div.card2 div.sign{
+    padding-top: 50px;
+}
+
+/* portfolio */
+#portfolio{
+    background-color:  #F5F5F5;
+    text-align: center;
+}
+
+#portfolio div.card{
+    background-color: #F5F5F5;
+}
+
+#portfolio h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    padding-top: 50px;
+}
+
+#portfolio h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 61px;
+    color: #212121;
+}
+
+#portfolio div.card h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 19px;
+    color: #212121;
+}
+
+#portfolio div.card p{
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #424242;
+}
+
+#portfolio div.card a{
+    text-decoration: none;
+    color: #CF9455;
+    font-size: 12px;
+}
+
+/* reasons */
+#reasons h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#reasons h2{     
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 61px;
+    color: #212121;
+    text-align: center;
+}
+
+#reasons div.card h5{
+    font-size: 68px;
+    line-height: 91px;
+    color: #CF9455;
+    text-align: left;
+}
+
+#reasons div.card h6{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #212121;
+}
+
+#reasons div.card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #424242;
+}
+
+/* stats */
+#stats{
+    background-color: #212121;
+    height: 400px;
+    color: #FFFFFF;
+}
+
+#stats div.card{
+    background-color: #212121;
+}
+
+#stats div.card div.stat{
+    background: #282E3F;
+    text-align: center;
+    height: 400px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+#stats div.card div.stat p{
+    font-size: 15px;
+    line-height: 28px;
+}
+
+#stats div.card  button {
+    border-radius: 0;
+    background-color: #CF9455;
+}
+#stats div.card div.stat span{
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 50px;
+}
+
+#stats div.card h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 91px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#stats div.card p{
+    text-align: center;
+}
+
+/* stories */
+#stories {
+    height: 600px;
+}
+
+#stories div.card div.story1{
+    height: 500px;
+    background-image: url(../images/image\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}
+
+#stories div.card h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 61px;
+    color: #212121;
+    padding-top: 150px;
+}
+
+#stories div.card p{
+    font-size: 13px;
+    line-height: 30px;
+    color: #424242;
+}
+
+#stories div.card button{
+    border-radius: 0;
+    border: 1px solid #CF9455;
+}
+
+#stories div.card button span{
+    font-size: 12px;
+    line-height: 19px;
+    color: #CF9455;
+}
+
+/* team */
+#team{
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+#team h2{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 61px;
+    color: #212121;
+    padding-top: 50px;
+}
+
+#team p{
+    font-size: 18px;
+    line-height: 21px;
+    color: #424242;
+}
+
+#team  div.card h6{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    color: #212121;
+}
+
+#team  div.card p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #424242;
+}
+/* testimonial */
+
+#testimonial{
+    background-color: #282E3F;
+    height: 250px;
+    text-align: center;
+}
+
+#testimonial h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 61px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+#testimonial div.video{
+    margin-top: 50px;
+}
+
+/* counselling */
+#counselling{
+    height: 400px;
+}
+
+#counselling h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    padding-top: 100px;
+    color: #212121;
+}
+
+#counselling p{
+    font-size: 15px;
+    line-height: 21px;
+    color: #212121;
+}
+
+#counselling form{
+    padding-top:80px ;
+    border-radius: 0;
+}
+
+#counselling form input{
+    border: 2px solid #CF9455;
+    border-radius: 0;
+    background-color: #EEEEEE;
+}
+
+#counselling form textarea{
+    border: 2px solid #CF9455;
+    border-radius: 0;
+    background-color: #EEEEEE;
+}
+
+#counselling form button{
+    border-radius: 0;
+    background-color: #CF9455;
+    color: #FFFFFF;
+}
+
+
+/* testify */
+#testify{
+    background-color: #FAFAFA;
+    height: 500px;
+    overflow: hidden;
+}
+
+#testify div.circle{
+    border: 2px dashed #B7B7B7;
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    border-radius: 800px;
+    padding: 100px;
+}
+
+#testify div.circle p{
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #424242;
+}
+
+#carouselExampleCaptions > a.carousel-control-prev > span:nth-child(3) > img{
+    background-color:  #CF9455;
+}
+
+#carouselExampleCaptions > a.carousel-control-next > span:nth-child(3) > img{
+    background-color:  #CF9455;
+}
+
+#carouselExampleCaptions > div > div > h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 43px;
+    color: #424242;
+}
+
+#carouselExampleCaptions > ol > li{
+    font-size: 12px;
+    line-height: 19px;
+    color: #000000;
+}
+
+/* blog */
+#blog{
+    /* height: 400px; */
+}
+
+#blog h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 61px;
+    color: #0D0D0D;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#blog h6{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px;
+    color: #212121;
+    padding: 0;
+}
+
+#blog small{
+    color: #424242;
+    font-size: 10px;
+}
+
+#blog div.card p{
+    font-size: 10px;
+    line-height: 19px;
+    color: #424242;
+    padding: 0;
+}
+
+#blog div.card a{
+    text-decoration: none;
+    color: #CF9455;
+    font-size: 10px;
+}
+
+/* contact */
+#mail-contact{
+    background-color: #282E3F;
+    height: 200px;
+}
+
+#mail-contact  h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #ffffffc4;
+    padding-top: 20px;
+}
+
+#mail-contact form{
+    background-color: #282E3F;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#mail-contact form input{
+    background-color:  #373E4F;
+    border-radius: 0;
+    width: 400px;
+    color: #ffffff;
+}
+
+
+#mail-contact form  button{
+    display: inline;
+    background-color: #CF9455;
+    border-radius: 0;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+/* quick */
+#quick-link p{
+    font-size: 12px;
+    line-height: 26px;
+    color: #424242;
+}
+
+#quick-link h6{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    color: #212121;
+}
+
+#quick-link li{
+    font-size: 12px;
+    line-height: 19px;
+    color: #424242;
+    list-style: url(../images/list.png);
+}
+
+section > div > button:hover{
+    background-color: #282E3F;
+}
+
+/* footer */
+footer div.container p  {
+    display: inline-block;
+}
+
+footer div.container span{
+    padding-left: 500px;
+}
+
+
+/* media querry */
+@media screen and (max-width:1200px) {
+    footer div.container span{
+        padding-left: 300px;
+    }
+} 
+
+@media screen and (max-width:972px){
+    #top-section div.upper-card{
+        margin: 0;
+    }
+
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+    .navbar-nav li {
+        padding: 0px;
+    }
+
+#top-section div.upper-card h2{
+    font-size: 30px;
+    }
+
+    #top-section div.upper-card button{
+        font-size: 15px;
+    }
+
+    #carouselExampleIndicators > div > div.carousel-item.active > div > br{
+        display: none;
+    }
+    #stats div.card h4{
+        font-size: 40px;
+    }
+
+    #stories div.card h3{
+        font-size: 30px;
+        padding-top: 80px;
+    }
+    #mail-contact form input{
+        width: 210px;
+    }
+    #quick-link h6{
+        font-size: 15px;
+    }
+    footer div.container span {
+        padding-left: 100px;
+    }
+    footer div.container p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:620px){
+    header div.container p{
+        display: none;
+    }
+
+    #testimonial {
+        height: auto;
+    }
+    #testify{
+        height: auto;
+    }
+    #counselling {
+        height: auto;
+    }
+
+    #testify div.circle{
+        border: none;
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+    #blog h6{
+        font-size: 15px;
+    }
+    #blog div.card p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:500px){
+    #about div.card2 h2{
+        margin-top: 0;
+        text-align: center;
+    }
+    #about div.card1{
+        margin: 30px;
+    }
+
+    #about hr{
+        display: none;
+    }
+    #reasons h2{
+        font-size: 40px;
+    }
+    #reasons div.card h5 {
+        font-size: 40px;
+    }
+    #stats{
+        height: auto;
+    }
+
+    #testimonial {
+        height: auto;
+    }
+    #testify{
+        height: auto;
+    }
+    #counselling {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:500px){
+    #top-section div.upper-card h2{
+        font-size: 20px;
+    }
+    #carouselExampleIndicators > div > div:nth-child(2) > div > h2 > br{
+        display: none;
+    }
+
+    #carouselExampleIndicators > div > div:nth-child(2) > div > br:nth-child(2){
+        display: none;
+    }
+
+    #carouselExampleIndicators > div > div.carousel-item.active > div > br:nth-child(2){
+        display: none;
+    }
+    
+    #top-section div.upper-card {
+        padding-left: 30px;
+    }
+    .carousel-indicators li{
+        display: none;
+    }
+
+    #top-section div.upper-card button{
+        font-size: 10px;
+    }
+
+    #reasons h2{
+        font-size: 28px;
+    }
+    #stories div.card h3 {
+        font-size: 20px;
+        padding-top: 0;
+    }
+
+    #counselling {
+        text-align: center;
+    }
+
+    #counselling h3{
+        padding-top: 0;
+    }
+    #counselling form{
+        padding-top: 0;
+        margin: 0 auto;
+    }
+
+    #counselling form input{
+        margin: 0 auto;
+    }
+
+    #mail-contact h4 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    #mail-contact form button{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    #quick-link p {
+        text-align: center;
+    }
+}
