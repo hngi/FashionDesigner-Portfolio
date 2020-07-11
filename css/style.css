@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -44,15 +48,15 @@
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    line-height: 33px;
+    line-height: 32px;
     color: #3036CC;
 }
 .name{
     font-weight: 800;
-    font-size: 26px; 
+    font-size: 40px; 
 }
 #wedplan{
-    font-size: 18px;
+    font-size: 24px;
 }
 .seeresume{
     font-family: Montserrat;
@@ -97,20 +101,42 @@ a{
 .hirebtn:hover{
     font-size: 16px;
 }
-@media only screen and (min-width: 768px) {
-    .intro-title{
-        font-size: 24px;
+
+@media (min-width: 576px) {
+
+}
+
+@media (max-width: 576px) {
+    .hero-image__mobile{
+        height: 324px !important;
+        margin-bottom: 25px;
     }
-    .intro-text{
+
+    .about-title{
+        width: -webkit-fill-available;
+        font-weight: 800;
         font-size: 18px;
+        line-height: 25px;
     }
-    .name{
-        font-size: 32px;
+
+    .about__img{
+        background: rgba(74, 122, 255, 0.02);
     }
-    #wedplan{
-        font-size: 22px;
+
+    .readmore{
+        font-size: 14px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #000000;
     }
-   }
+
+    .about-text{
+        font-size: 14px !important;
+        line-height: 19px !important;
+        letter-spacing: 0.015em !important;
+    }
+}
+
 /*---------about-------------*/
 .about-title{
     font-style: normal;
@@ -215,13 +241,32 @@ a{
         width: 100%;
         margin-bottom: 32px;
     }
+
+    .gallery__title{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 41px;
+        color: #3036CC;
+    }
+
     .gallery__btn{
         margin-top: 30px;
         padding: 10px;
     }
 
+    .gallery__btn_mobile {
+        font-size: 16px;
+        line-height: 22px;
+        align-items: center;
+        text-align: center;
+        color: #3036CC;
+
+    }
+
     .icon__left{
         padding-left: 25px;
+    
     }
 }
 
@@ -246,6 +291,18 @@ a{
     color: #3036CC;
     padding-bottom: 57px;
 }
+
+@media (max-width: 576px) {
+    .testimonial__title{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 41px;
+        color: #3036CC;
+    }
+}
+    
+   
 
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
     /* display: block; */
@@ -274,13 +331,14 @@ a{
 
 /*---------Contact-------------*/
 .contact-bg{
-    background-image: url("/images/Mapsicle\ Map.png");
+    background-image: url("../images/Mapsicle\ Map.png");
     min-height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+
 .form-container {
     position: absolute;
     right: 0;
@@ -318,6 +376,29 @@ a{
   .submitbtn:hover{
       font-size: 16px;
   }
+
+  @media (max-width: 568px) {
+    .contact-title{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 41px;
+        color: #3036CC;
+    }
+    .contact-bg {
+        background-image: none;
+        background: rgba(74, 122, 255, 0.02);
+    }
+
+    .form-container {
+        position: absolute;
+        right: 0;
+        max-width: 100%;
+        padding: 15px;
+        background-color: rgb(251, 252, 255);
+      }
+ }
+
  /*-----------FOOTER----*/
  .hr-footer{
     width: 85%; 
